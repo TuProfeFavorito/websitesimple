@@ -1,0 +1,85 @@
+.footerTopFlex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+}
+.footerTopFlexLeft {
+    width: calc(50% - 50px);
+}
+.footerTopFlexLeft h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.footerTopFlexLeft p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.footerTop {
+    background: #3b3b3b;
+    padding: 50px;
+}
+.footerBottom {
+    background: #1a1a1a;
+}
+.footerBottomFlex {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+.logoLetters {
+    color: white;
+    font-size: 55px;
+    letter-spacing: 8px;
+}
+.footerBottomFlex ul {
+    display: flex;
+}
+.footerBottomFlex ul li {
+    margin-left: 25px;
+}
+.footerBottomFlex ul a {
+    color: white;
+}
+
+.footerBottomFlexInside .social li {
+    margin-right: 5px;
+}
+.footerBottomFlexInside .social {
+    display: flex;
+    margin-top: 5px;
+}
+.footerBottomFlexInside .social a {
+    color: white;
+}
+.footerBottomFlexInside div {
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+.footerBottomFlexInside {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.extrafooter a {
+    color: white;
+}
+.extrafooter {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.6;
+}
