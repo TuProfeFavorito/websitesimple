@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    font-family: 'Gabarito', sans-serif;
+}
+h1, h2, h3, h4, p {
+    margin: 0px;
+    font-family: 'Gabarito', sans-serif;
+}
+a, button {
+    font-family: 'Gabarito', sans-serif;
+}
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    /* retirar estilos de listas */
+    list-style: none;
+}
+a {
+    /* retirar linea*/
+    text-decoration: none;
+}
+.x-container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    text-align: center;
+    color: white;
+    background: #f38c59;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: solid 1px #f38c59;
+}
+
+
